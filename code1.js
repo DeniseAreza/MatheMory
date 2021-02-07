@@ -839,7 +839,7 @@ gdjs.NewSceneCode.GDstar_95particleObjects6.length = 0;
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8069124);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8084492);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.NewSceneCode.GDcard_95anemoneObjects5, gdjs.NewSceneCode.GDcard_95anemoneObjects6);
@@ -1200,7 +1200,7 @@ gdjs.NewSceneCode.GDcard_95anemoneObjects4.length = k;for(var i = 0, k = 0, l = 
 gdjs.NewSceneCode.GDcard_95plasticbagObjects4.length = k;}if ( gdjs.NewSceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition1IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8070324);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8085692);
 }
 }}
 if (gdjs.NewSceneCode.condition1IsTrue_0.val) {
@@ -1505,7 +1505,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElaps
 }if ( gdjs.NewSceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition1IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8063668);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8079036);
 }
 }}
 if (gdjs.NewSceneCode.condition1IsTrue_0.val) {
@@ -1590,7 +1590,7 @@ gdjs.NewSceneCode.GDcard_95anemoneObjects1.length = k;for(var i = 0, k = 0, l = 
 gdjs.NewSceneCode.GDcard_95plasticbagObjects1.length = k;}if ( gdjs.NewSceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition1IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8073252);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8088620);
 }
 }}
 if (gdjs.NewSceneCode.condition1IsTrue_0.val) {
@@ -1617,7 +1617,7 @@ gdjs.NewSceneCode.eventsList14(runtimeScene);} //End of subevents
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8079428);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8094796);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.NewSceneCode.GDnewgame_95buttonObjects2, gdjs.NewSceneCode.GDnewgame_95buttonObjects3);
@@ -1659,7 +1659,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRele
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8081948);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8097316);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.NewSceneCode.GDnewgame_95buttonObjects1 */
@@ -1679,7 +1679,7 @@ gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition0IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8076444);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8091812);
 }
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("newgame"), gdjs.NewSceneCode.GDnewgameObjects2);
@@ -1822,7 +1822,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.object.pickedObjectsCou
 }if ( gdjs.NewSceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition1IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8082868);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8098236);
 }
 }}
 if (gdjs.NewSceneCode.condition1IsTrue_0.val) {
