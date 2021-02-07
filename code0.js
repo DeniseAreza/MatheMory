@@ -13,17 +13,35 @@ gdjs.MainMenuCode.condition0IsTrue_0 = {val:false};
 gdjs.MainMenuCode.condition1IsTrue_0 = {val:false};
 
 
-gdjs.MainMenuCode.eventsList0 = function(runtimeScene) {
+gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDSTARTObjects1Objects = Hashtable.newFrom({"START": gdjs.MainMenuCode.GDSTARTObjects1});gdjs.MainMenuCode.eventsList0 = function(runtimeScene) {
 
 {
 
 
 gdjs.MainMenuCode.condition0IsTrue_0.val = false;
 {
-gdjs.MainMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Return");
+gdjs.MainMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.MainMenuCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "NewScene", false);
 }}
+
+}
+
+
+};gdjs.MainMenuCode.eventsList1 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("START"), gdjs.MainMenuCode.GDSTARTObjects1);
+
+gdjs.MainMenuCode.condition0IsTrue_0.val = false;
+{
+gdjs.MainMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDSTARTObjects1Objects, runtimeScene, true, false);
+}if (gdjs.MainMenuCode.condition0IsTrue_0.val) {
+
+{ //Subevents
+gdjs.MainMenuCode.eventsList0(runtimeScene);} //End of subevents
+}
 
 }
 
@@ -55,7 +73,7 @@ gdjs.MainMenuCode.GDNewObjectObjects2.length = 0;
 gdjs.MainMenuCode.GDNewObject2Objects1.length = 0;
 gdjs.MainMenuCode.GDNewObject2Objects2.length = 0;
 
-gdjs.MainMenuCode.eventsList0(runtimeScene);
+gdjs.MainMenuCode.eventsList1(runtimeScene);
 return;
 
 }
